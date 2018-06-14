@@ -6,3 +6,6 @@
 master和feature都是branch
 master是最终的主分支
 feature是特征分支，是每一次做特征处理需要创建的，以mater为基础copy出来，修改完成后最终需要合并回master分支
+
+pull request是针对已做了修改而言，修改了内容的feature branch即可以发起pull request
+merge request是针对需要合进内容而言，这里指的master branch即可把发起合并的内容添加到master分支
