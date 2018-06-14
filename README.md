@@ -1,2 +1,8 @@
 # Hello-World
 学习创建GitHub存储库，存储学习GitHub笔记
+在Wiki里面有对初学的总结笔记
+
+注意对branch的概念的理解：
+master和feature都是branch
+master是最终的主分支
+feature是特征分支，是每一次做特征处理需要创建的，以mater为基础copy出来，修改完成后最终需要合并回master分支
