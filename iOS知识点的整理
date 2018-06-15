@@ -1,0 +1,18 @@
+iOS知识点的整理
+
+性别枚举定义
+typedef NS_ENUM (NSInteger CYBUserGender) {
+	CYBUserGenderUnknown,
+    CYBUserGenderMale,
+    CYBUserGenderFemale,
+    CYBUserGenderNeuter
+};
+
+iOS代码规范
+1、通过方法初始化的属性应该定义为readonly类型
+2、枚举统一用驼峰命名，不要使用下滑线
+3、每个独立项之间用空格隔开
+例如：- 和 (void)之间添加空格
+4、方法参数名后的:不要用空格隔开
+5、@interface和@property之间要换行
+
